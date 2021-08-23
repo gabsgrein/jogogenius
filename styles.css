@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: #6155A6;
+}
+
+#level-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 0px;
+  border-radius: 100%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF4848;
+}
+
+.green {
+  background-color: #C2F784;
+}
+
+.blue {
+  background-color: #64C9CF;
+}
+
+.yellow {
+  background-color: #FFE459;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
